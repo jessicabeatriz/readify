@@ -1,0 +1,69 @@
+# ==========================================
+# BACKEND / JAVA (Spring Boot & Maven)
+# ==========================================
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ==========================================
+# FRONTEND / NODE.JS (React / Vite)
+# ==========================================
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependências
+frontend/node_modules/
+.npm
+
+# Pastas de Build (Produção)
+frontend/dist/
+frontend/build/
+
+# Arquivos de ambiente locais do Front
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ==========================================
+# IDEs E SISTEMA OPERACIONAL (Geral)
+# ==========================================
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code & OS ###
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
